@@ -1,0 +1,64 @@
+.container {
+    background-color: lightblue;
+    height: 100vh;
+    width: 40%;
+    margin: auto;
+    overflow-y: auto;
+    max-height: 680px;
+}
+
+a button {
+    height: 92px;
+    width: 91px;
+    background-color: blue;
+    color: yellow;
+    padding: 0%;
+    margin: 0;
+}
+
+.bottom-container {
+    background-color: lightblue;
+    width: 40%;
+    margin-left: 427.5px;
+}
+
+#SmileyFace {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    margin-left: -75px
+}
+
+h2 {
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: 150px;
+}
+
+#warningMessage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    height: 40px;
+    width: 570px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-top: -100px;
+}
+
+#warningMessage span {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}

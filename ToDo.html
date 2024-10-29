@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ToDo.css">
+    
+</head>
+<body>
+    <body><div class="container">
+        <br>
+        <h1>To Do</h1>
+    <input id="userText" placeholder="New entry...">
+
+    <button class="add-but" onclick="addTask()">Add</button>
+
+    <div id="taskList">
+
+    </div>
+
+
+    </div>
+    <div class="bottom-container">
+        <a href="/Text.html"><button type="button">Text</button></a>
+        <a href="/Choices.html"><button type="button">Choices</button></a>
+        <a href="/ToDo.html"><button type="button">ToDo</button></a>
+        <a href="/Profile.html"><button type="button">Profile</button></a>
+        <a href="/Colors.html"><button type="button">Colors</button></a>
+        <a href="/LR.html"><button type="button">LR</button></a>
+    </div>
+    
+    <!-- const userInput = document.getElementById("userText")
+    taskList.appendChild(userInput); -->
+
+    <script>
+        function addTask() {
+            const taskList = document.getElementById("taskList");
+            const userInput = document.getElementById("userText");
+
+            if(userInput.value.trim() === "") {
+                return;
+            }
+
+            const taskItem = document.createElement("div");
+            taskItem.classList.add("task-item"); // for css styling
+
+            const taskText = document.createElement("span");
+            taskText.textContent = userInput.value;
+
+            const deleteBtn = document.createElement("button");
+            deleteBtn.textContent = "X";
+
+            deleteBtn.classList.add("delete-btn"); // css
+
+            deleteBtn.onclick = function () {
+                taskText.classList.toggle("completed"); // Strike-through effect
+            };
+
+            taskItem.appendChild(taskText);
+            taskItem.appendChild(deleteBtn);
+            taskList.appendChild(taskItem);
+
+            userInput.value = "";
+        }
+    </script>
+</body>
+</html>

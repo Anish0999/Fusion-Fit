@@ -1,0 +1,37 @@
+.container {
+    background-color: lightblue;
+    height: 100vh;
+    width: 40%;
+    margin: auto;
+    overflow-y: auto;
+    max-height: 680px;
+}
+
+a button {
+    height: 92px;
+    width: 91px;
+    background-color: blue;
+    color: yellow;
+    padding: 0%;
+    margin: 0;
+}
+
+.bottom-container {
+    background-color: lightblue;
+    width: 40%;
+    margin-left: 427.5px;
+
+}
+
+.middle {
+    background-color: rgb(208, 208, 208);
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    border-style: solid;
+    margin-left: 225px;
+    margin-right: auto;
+    margin-top: 70px;
+    font-size: 15px;
+
+}
