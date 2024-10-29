@@ -10,14 +10,10 @@
 <body>
     <body>
         <div class="container">
-            <h1>Profile</h1>
-            <img id="SmileyFace" src="/icons/Smiley.svg.png" alt="Smiley Face" onclick="warnUser()">
-            <h2>Smiley J. Smile</h2>
-            <div id="warningMessage" style="display: none;">
-                <b>Warning!</b> Do not click on the profile image.
-                <span onclick="unwarnUser()">x</span>
-            </div>
+            <h1>Fusion Fit</h1>
+            <button>Start Workout</button>
         </div>
+
         <div class="bottom-container">
             <a href="/Text.html"><button type="button">Text</button></a>
             <a href="/Choices.html"><button type="button">Choices</button></a>
@@ -27,17 +23,5 @@
             <a href="/LR.html"><button type="button">LR</button></a>
         </div>
 </body>
-
-<script>
-    function warnUser() {
-        const getDisplay = document.getElementById("warningMessage");
-        getDisplay.style.display = "block";
-    }
-    function unwarnUser(){
-        const getDisplay = document.getElementById("warningMessage");
-        getDisplay.style.display = "none";
-    }
-
-</script>
 
 </html>
