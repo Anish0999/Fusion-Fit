@@ -17,15 +17,6 @@
     /* Only if content overflows container height */
 }
 
-a button {
-    height: 96px;
-    width: 96px;
-    background-color: black;
-    color: white;
-    padding: 0;
-    border: none;
-}
-
 /* Adjusted .bottom-container with fixed height */
 .bottom-container {
     background-color: black;
@@ -42,15 +33,22 @@ a button {
     /* Add padding for spacing within */
 }
 
-h2 {
-    position: absolute;
-    left: 50%;
-    margin-left: -75px;
-    margin-top: 150px;
+.start_work {
+    display: flex;
+    height: 20%;
+    width: 90%;
+    border: 2px solid black;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 66%;
 }
 
+.start_work h2 {
+    margin-left: 10%;
+    text-align: center;
+}
 
-.start_work {
-    width: 60%;
-    height: 30%;
+.start_work img {
+    height: 120px;
+    width: 280px;
 }
