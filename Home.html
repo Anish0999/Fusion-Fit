@@ -10,17 +10,56 @@
 <body>
     <body>
         <div class="container">
-            <h1>Fusion Fit</h1>
+            <h1>Fusion Fit ⚡</h1>
 
-            <div class="start_work" onclick="">
-                <h2>Start <br> Workout</h2>
-                <img src="Images/1.webp" alt="">
-            </div>
-            <div class="2">
+            <!-- <button class="start_work">Start Workout</button> -->
 
+            <div class="start_work">
+                Start Workout
             </div>
 
-            <h3>Today's Progress</h3>
+            <div class ="row">
+                <div class = "col">
+                    <h3 class="progress-item">Today's Progress 🎯</h3>
+
+                    <div class="progress-item">
+                        <label>Calorie Intake:</label><br>
+                        <input type="range" min="0" max="100" value="50" class="slider">    
+                    </div>
+
+                    <div class="progress-item">
+                        <label>Water Intake (2 cups left!):</label>
+                        <br>
+                        <p></p>
+                        <img src="./images/glass-of-water.png" alt="Water Icon" class="water-icon">
+                        <img src="./images/glass-of-water.png" alt="Water Icon" class="water-icon">                  
+                    </div>
+
+                    <div class="progress-item">
+                        <label>Legs:</label>
+                        <div class="check-icon">
+                            
+                           <input type="checkbox" id="legs-checkbox" class="checkbox">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class = "col">
+                    <h3 class="week-item">This Week's Goals 📅</h3>
+
+                    <div class="week-item">
+                        <label>Workouts:</label> <br>
+                        <input type="range" min="0" max="100" value="50" class="slider">    
+                    </div>
+
+                    <div class="week-item">
+                        <label>Steps:</label><br>
+                        <input type="range" min="0" max="100" value="50" class="slider">
+                    </div>
+
+                </div>
+            </div>
 
             <div class="bottom-container">
                 <a href="/Statisitcs.html"><button type="button">Statisitcs</button></a>

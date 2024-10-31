@@ -9,12 +9,23 @@
     display: flex;
     /* Use flex to align items within container */
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* Space out elements vertically */
     align-items: center;
     box-sizing: border-box;
     overflow: hidden;
     /* Only if content overflows container height */
+
+    /* border: 2px solid black; */
+}
+
+a button {
+    height: 96px;
+    width: 96px;
+    background-color: black;
+    color: white;
+    padding: 0;
+    border: none;
 }
 
 /* Adjusted .bottom-container with fixed height */
@@ -23,32 +34,56 @@
     width: 100%;
     height: 60px;
     /* Fixed height to prevent extra spacing */
+
     display: flex;
     justify-content: space-around;
+    
     /* Space buttons evenly horizontally */
     align-items: center;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     padding: 10px 0;
     /* Add padding for spacing within */
+
+    margin-top: auto;
 }
+
+h2 {
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: 150px;
+}
+
 
 .start_work {
-    display: flex;
-    height: 20%;
-    width: 90%;
     border: 2px solid black;
-    align-items: center;
-    border-radius: 20px;
-    margin-bottom: 66%;
+    width: 60%;
+    height: 30%;
+    margin: 5%;
 }
 
-.start_work h2 {
-    margin-left: 10%;
-    text-align: center;
+.row{
+    width:98%;
+    display:flex;
+    gap:5%;
+    height:30%;
+    margin: 1%;
+}
+.col{
+    width:100%;
+    border: black 1px solid;
 }
 
-.start_work img {
-    height: 120px;
-    width: 280px;
+.water-icon{
+    width: 10%;
+    height: 10%;
+}
+
+.progress-item{
+    margin: 5%;
+}
+
+.week-item{
+    margin: 5%;
 }
