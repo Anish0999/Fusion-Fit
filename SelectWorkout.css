@@ -9,12 +9,16 @@
     display: flex;
     /* Use flex to align items within container */
     flex-direction: column;
-    justify-content: space-between;
+
+    /* justify-content: space-between; */
+
     /* Space out elements vertically */
     align-items: center;
     box-sizing: border-box;
     overflow: hidden;
     /* Only if content overflows container height */
+
+    /* border: 2px solid red; */
 }
 
 a button {
@@ -40,6 +44,8 @@ a button {
     border-top-right-radius: 20px;
     padding: 10px 0;
     /* Add padding for spacing within */
+
+    margin-top: auto;
 }
 
 h2 {
@@ -50,6 +56,24 @@ h2 {
 }
 
 
-.start_work {
+.schedule{
+
+    margin: 0.5%;
+    padding: 8%;
+    display: flex;
+    justify-content: space-around;
+
+     /* border: 2px solid red; */
     
+}
+
+.day{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+    
+}
+
+.all-generators{
+    /* border: 2px solid blue; */
 }

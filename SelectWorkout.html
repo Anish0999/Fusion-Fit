@@ -12,9 +12,129 @@
         <div class="container">
             <h1>Fusion Fit</h1>
 
-            <button class="start_work">Select Workout</button>
+            <div class="schedule">
+                
 
-            <h3>Today's Progress</h3>
+                <div class="day">
+                    <span class="day-name">Mon:</span>
+                    <select class="workout-select">
+                        <option value="pull">Pull</option>
+                        <option value="push">Push</option>
+                        <option value="legs">Legs</option>
+                        <option value="rest">Rest</option>
+                    </select>
+                </div>
+
+                <div class="day">
+                    <span class="day-name">Tues:</span>
+                    <select class="workout-select">
+                        <option value="pull">Pull</option>
+                        <option value="push">Push</option>
+                        <option value="legs">Legs</option>
+                        <option value="rest">Rest</option>
+                    </select>
+                </div>
+
+                <div class="day">
+                    <span class="day-name">Wed:</span>
+                    <select class="workout-select">
+                        <option value="pull">Pull</option>
+                        <option value="push">Push</option>
+                        <option value="legs">Legs</option>
+                        <option value="rest">Rest</option>
+                    </select>
+                </div>
+                
+                <div class="day">
+                    <span class="day-name">Thurs:</span>
+                    <select class="workout-select">
+                        <option value="pull">Pull</option>
+                        <option value="push">Push</option>
+                        <option value="legs">Legs</option>
+                        <option value="rest">Rest</option>
+                    </select>
+                </div>
+
+                <div class="day">
+                    <span class="day-name">Fri:</span>
+                    <select class="workout-select">
+                        <option value="pull">Pull</option>
+                        <option value="push">Push</option>
+                        <option value="legs">Legs</option>
+                        <option value="rest">Rest</option>
+                    </select>
+                </div>
+
+                <div class="day">
+                    <span class="day-name">Sat:</span>
+                    <select class="workout-select">
+                        <option value="pull">Pull</option>
+                        <option value="push">Push</option>
+                        <option value="legs">Legs</option>
+                        <option value="rest">Rest</option>
+                    </select>
+                </div>
+
+                <div class="day">
+                    <span class="day-name">Sun:</span>
+                    <select class="workout-select">
+                        <option value="pull">Pull</option>
+                        <option value="push">Push</option>
+                        <option value="legs">Legs</option>
+                        <option value="rest">Rest</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="all-generators">
+
+                <div class="routine-card">
+                    <h3 id="workout-title">Push Day</h3>
+    
+                    <ul id="excersise-list-push">
+                        <li>Bench Press - 3 x 10</li>
+                        <li>Shoulder Press - 4 x 12</li>
+                        <li>Tricep Extension - 3 x 12</li>
+                    </ul>
+    
+                    <div class="button-group">
+                        <button onclick="showRoutinePush()">Generate Different Workout</button>
+                    </div>
+                </div>
+
+                <div class="routine-card">
+                    <h3 id="workout-title">Pull Day</h3>
+    
+                    <ul id="excersise-list-pull">
+                        <li>T-Bar Row - 3 x 10</li>
+                        <li>Dumbell Row - 4 x 12</li>
+                        <li>Reverse Fly - 3 x 15</li>
+                    </ul>
+    
+                    <div class="button-group">
+                        <button onclick="showRoutinePull()">Generate Different Workout</button>
+                    </div>
+                </div>
+
+                <div class="routine-card">
+                    <h3 id="workout-title">Leg Day</h3>
+    
+                    <ul id="excersise-list-leg">
+                        <li>Bulgarian Split Squat - 3 x 10</li>
+                        <li>Hamstring Curl - 4 x 12</li>
+                        <li>Goblet Squat - 3 x 15</li>
+                    </ul>
+    
+                    <div class="button-group">
+                        <button onclick="showRoutineLeg()">Generate Different Workout</button>
+                    </div>
+                </div>
+
+            </div>
+
+            
+
+            
 
             <div class="bottom-container">
                 <a href="/Statisitcs.html"><button type="button">Statisitcs</button></a>
@@ -25,7 +145,7 @@
             </div>
         </div>
 
-        
+        <script src="SelectWorkout.js"></script>
 </body>
 
 </html>
