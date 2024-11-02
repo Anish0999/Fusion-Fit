@@ -9,12 +9,14 @@
     display: flex;
     /* Use flex to align items within container */
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* Space out elements vertically */
     align-items: center;
     box-sizing: border-box;
     overflow: hidden;
     /* Only if content overflows container height */
+
+    /* border: 2px solid red */
 }
 
 a button {
@@ -40,6 +42,8 @@ a button {
     border-top-right-radius: 20px;
     padding: 10px 0;
     /* Add padding for spacing within */
+
+    margin-top: auto;
 }
 
 h2 {
@@ -49,8 +53,64 @@ h2 {
     margin-top: 150px;
 }
 
-
 .start_work {
     width: 60%;
     height: 30%;
+}
+
+.first_line{
+    display: flex;
+}
+
+/* .goals-section{
+    border: 2px solid blue;
+} */
+
+.goals-section {
+    width: 400px;
+    text-align: center;
+
+    /* border: 2px solid blue; */
+}
+
+#goal-input {
+    padding: 8px;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#goals-list {
+    list-style-type: none; /* get rid of bullet points */
+    padding: 0;
+}
+
+.goal-item {
+    
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.goal-text {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.goal-slider {
+    width: 300px;
+    margin-right: 10px;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 5px 8px;
+    cursor: pointer;
 }

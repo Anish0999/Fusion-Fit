@@ -12,12 +12,25 @@
         <div class="container">
             <h1>Fusion Fit</h1>
 
-            <button class="start_work">Start Workout</button>
+            <div class="goals-section">
 
-            <h3>Today's Progress</h3>
+                <div class="first-line">
+                    <h3>Goals</h3>
+                    <input type="text" id="goal-input" placeholder="Enter your goal">
+                    <button onclick="handleAddGoal()">Add</button>
+
+                    <ul id="goals-list">
+                        
+                    </ul>
+
+                </div>
+               
+
+            </div>
+           
 
             <div class="bottom-container">
-                <a href="/Statisitcs.html"><button type="button">Statisitcs</button></a>
+                <a href="/Statisitcs.html"><button type="button">Goals</button></a>
                 <a href="/SelectWorkout.html"><button type="button">Select Workout</button></a>
                 <a href="/Home.html"><button type="button">Home</button></a>
                 <a href="/Planner.html"><button type="button"> Planner</button></a>
@@ -25,7 +38,7 @@
             </div>
         </div>
 
-        
+        <script src="Statistics.js"></script>
 </body>
 
 </html>
