@@ -37,7 +37,7 @@ a button {
 
     display: flex;
     justify-content: space-around;
-    
+
     /* Space buttons evenly horizontally */
     align-items: center;
     border-top-left-radius: 20px;
@@ -53,46 +53,50 @@ h2 {
     left: 50%;
     margin-left: -75px;
     margin-top: 150px;
+    align-items: center;
 }
 
 
 .start_work {
     border: 2px solid black;
-    width: 60%;
-    height: 30%;
+    width: 90%;
+    height: 20%;
     margin: 5%;
+    border-radius: 15px;
+    display: flex;
 }
 
-.row{
-    width:98%;
-    display:flex;
-    gap:5%;
-    height:30%;
+.row {
+    width: 98%;
+    display: flex;
+    gap: 5%;
+    height: 30%;
     margin: 1%;
 }
-.col{
-    width:100%;
+
+.col {
+    width: 100%;
     border: black 1px solid;
 }
 
-.water-icon{
+.water-icon {
     width: 10%;
     height: 10%;
 }
 
-.progress-item{
+.progress-item {
     margin: 5%;
 }
 
-.week-item{
+.week-item {
     margin: 5%;
 }
 
-.start-workout-item{
+.start-workout-item {
     margin: 5%;
 }
 
-.workout-img{
-    width: 75%;
-    height: 75%;
+.workout-img {
+    width: 55%;
+    height: 55%;
 }
