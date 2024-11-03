@@ -64,18 +64,18 @@ h2 {
 
 .select-type-div{
     
-    border: 2px red solid;
+    /* border: 2px red solid; */
 }
 
 #results{
     
     width: 80%;
     margin: 5%;
-    border: 2px red solid;
+    /* border: 2px red solid; */
 }
 
 .e-item {    
     padding: 8%;
     margin: 10%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
