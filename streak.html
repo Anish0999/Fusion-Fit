@@ -13,6 +13,19 @@
             <h1>Fusion Fit ⚡</h1>
 
             <h1 class="message">You have worked out for <br><span class="days_color">19 days</span> <br>in a ROW! <br>Keep Up the Good Work!</h1>
+            <button onclick="openPopup()" class="share-button">Share with a Friend ✉️ </button>
+
+            <div id="popup-form" class="popup-form">
+                <h2>Share with a Friend!</h2>
+                <label for="friend-email">Friend's Email:</label>
+                <input type="email" id="friend-email" placeholder="Enter friend's email" required>
+                
+                <label for="friend-message">Message:</label>
+                <textarea id="friend-message" placeholder="Enter your message"></textarea>
+                
+                <button onclick="sendMessage()" class="send-button">Send</button>
+                <button onclick="closePopup()" class="close-button">Close</button>
+            </div>
 
             <div class="bottom-container">
                 <a href="/Profile.html"><button type="button">Profile</button></a>
@@ -23,7 +36,7 @@
             </div>
         </div>
 
-        
+        <script src="streak.js"></script>
 </body>
 
 </html>
