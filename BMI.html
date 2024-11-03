@@ -8,36 +8,51 @@
 </head>
 
 <body>
-    <body>
-        <div class="container">
-            <h1></h1>
-            <h1>Fusion Fit ⚡</h1>
-            <div class="form_class">
-                <form action="">
-                    <p>Age:</p>
-                    <input type="text">
-                        <br>
-                    <div>
-                        <p>Gender:</p>
-                        <input type="radio" id="male" name="gender" value="male">
-                        <label for="male">Male</label><br>
-                        <input type="radio" id="male" name="gender" value="female">
-                        <label for="male">Female</label>
-                    </div>
-
-                </form>
-            </div>
-
-            <div class="bottom-container">
-                <a href="/Account.html"><button type="button">Account</button></a>
-                <a href="/SelectWorkout.html"><button type="button">Select Workout</button></a>
-                <a href="/Home.html"><button type="button">Home</button></a>
-                <a href="/Planner.html"><button type="button"> Planner</button></a>
-                <a href="/More.html"><button type="button">More</button></a>
+    <div class="container">
+        <h1></h1>
+        <h1>Fusion Fit ⚡</h1>
+        <h2>BMI Calculator</h2>
+        <div class="form_class">
+            <div class="form">
+                <p>Age:</p>
+                <input type="text">
+                    <br>
+                <div>
+                    <p>Gender:</p>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="male" name="gender" value="female">
+                    <label for="male">Female</label>
+                </div>
+                <p>Height (in inches):</p>
+                <input type="text" id="height">
+                <p>Weight:</p>
+                <input type="text" id="weight">
+                <br> <br>
+                <button onclick="getBMI()">Find BMI</button>
+                <div id="bmiResult"></div>
             </div>
         </div>
 
-        
+        <div class="bottom-container">
+            <a href="/Profile.html"><button type="button">Profile</button></a>
+            <a href="/SelectWorkout.html"><button type="button">Select Workout</button></a>
+            <a href="/Home.html"><button type="button">Home</button></a>
+            <a href="/Planner.html"><button type="button"> Planner</button></a>
+            <a href="/More.html"><button type="button">More</button></a>
+        </div>
+    </div>     
 </body>
+
+<script>
+    function getBMI(){
+        height = document.getElementById("height").value
+        weight = document.getElementById("weight").value
+        height_meters = (height/12)/3.28084
+        weight_kilo = weight * 0.453592
+        bmi = weight_kilo/(height_meters * height_meters)
+        document.getElementById("bmiResult").innerText = `Your BMI is: ${bmi}`;
+    }
+</script>
 
 </html>
