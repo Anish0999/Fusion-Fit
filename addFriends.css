@@ -10,13 +10,14 @@
     /* Use flex to align items within container */
     flex-direction: column;
     /* justify-content: space-between; */
+
     /* Space out elements vertically */
     align-items: center;
     box-sizing: border-box;
     overflow: hidden;
     /* Only if content overflows container height */
 
-    /* border: 2px solid red */
+    border: 2px solid purple;
 }
 
 a button {
@@ -44,38 +45,52 @@ a button {
     /* Add padding for spacing within */
 
     margin-top: auto;
+
+    border: 10px solid orange
 }
 
-h2 {
-    position: absolute;
-    left: 50%;
-    margin-left: -75px;
-    margin-top: 150px;
+.your-friends{
+    width: 30vw;
+    height: 35vw;
+    /* border: 2px solid red; */
 }
 
-.start_work {
+#friend-input {
+    padding: 8px;
     width: 60%;
-    height: 30%;
+    margin-bottom: 10px;
 }
 
-.first_line{
+/* .friends{
+    width: 55vh;
+    height: 15vh;
+    border: 2px solid green;
+} */
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+/* more styling */
+
+.friend-item {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
 }
 
-.select-type-div{
-    
-    border: 2px red solid;
+.friend-name {
+    font-weight: bold;
 }
 
-#results{
-    
-    width: 80%;
-    margin: 5%;
-    border: 2px red solid;
-}
-
-.e-item {    
-    padding: 8%;
-    margin: 10%;
-    border: 1px solid green;
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 8px;
+    cursor: pointer;
 }
