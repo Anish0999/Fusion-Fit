@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="More.css">
+    <link rel="stylesheet" href="Statistics.css">
 </head>
 
 <body>
@@ -12,11 +12,22 @@
         <div class="container">
             <h1>Fusion Fit</h1>
 
-            <ul>
-                <li><a href="/BMI.html">BMI Calculator</a></li>
-                <li><a href="/Calorie.html">Calorie Calculator</a></li>
-            </ul>
-            <h3>Today's Progress</h3>
+            <div class="goals-section">
+
+                <div class="first-line">
+                    <h3>Goals</h3>
+                    <input type="text" id="goal-input" placeholder="Enter your goal">
+                    <button onclick="handleAddGoal()">Add</button>
+
+                    <ul id="goals-list">
+                        
+                    </ul>
+
+                </div>
+               
+
+            </div>
+           
 
             <div class="bottom-container">
                 <a href="/Profile.html"><button type="button">Profile</button></a>
@@ -27,7 +38,7 @@
             </div>
         </div>
 
-        
+        <script src="Statistics.js"></script>
 </body>
 
 </html>
