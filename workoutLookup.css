@@ -9,16 +9,14 @@
     display: flex;
     /* Use flex to align items within container */
     flex-direction: column;
-
     /* justify-content: space-between; */
-
     /* Space out elements vertically */
     align-items: center;
     box-sizing: border-box;
     overflow: hidden;
     /* Only if content overflows container height */
 
-    /* border: 2px solid red; */
+    /* border: 2px solid red */
 }
 
 a button {
@@ -55,30 +53,28 @@ h2 {
     margin-top: 150px;
 }
 
+.start_work {
+    width: 60%;
+    height: 30%;
+}
 
-.schedule{
-
-    margin: 0.5%;
-    padding: 3%;
+.first_line{
     display: flex;
-    justify-content: space-around;
+}
 
-     border: 2px solid red;
+.select-type-div{
+    /* border: 2px red solid; */
+}
+
+#results{
+    width: 40%;
     
+    margin: 5%;
+    /* border: 2px red solid; */
 }
 
-.workout-lookup {
-    padding: 2%;
-    /* border: 2px solid red; */
-}
-
-.day{
-    display: flex;
-    flex-direction: column;
-    margin: 0 5px;
-    
-}
-
-.all-generators{
-    /* border: 2px solid blue; */
+.e-item {    
+    padding: 8%;
+    margin: 10%;
+    /* border: 1px solid green; */
 }
