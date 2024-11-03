@@ -93,7 +93,18 @@ h2 {
 }
 
 .start-workout-item {
-    margin: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 8%;
+    /* border: 2px solid red; */
+}
+
+.workout-tag{
+    font-size: 2.0rem;
+    
 }
 
 .workout-img {
@@ -139,4 +150,8 @@ h2 {
     text-decoration: none; /* Remove underline */
     border-radius: 5px;
     cursor: pointer;
+}
+
+.start-workout-item{
+
 }
