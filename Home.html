@@ -11,8 +11,8 @@
     <body>
         <div class="container">
             <div class="title-area">
-                <img src="Images/FIRES.png" alt="">
-                <h1 class="num">19</h1>
+                <img src="Images/FIRES.png" alt="" onclick="toStreak()">
+                <h1 class="num" onclick="toStreak()" >19</h1>
                 <h1 class="title">Fusion Fit ⚡</h1>
             </div>
 
@@ -81,5 +81,9 @@
 
         
 </body>
-
+<script>
+    function toStreak() {
+      window.location.href = "streak.html";
+    }
+  </script>
 </html>
