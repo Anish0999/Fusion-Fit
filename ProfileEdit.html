@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Profile.css">
+</head>
+
+<body>
+    <body>
+        <div class="container">
+            <h1>Fusion Fit</h1>
+
+            <h1>Edit My Profile</h1>
+            <form>
+                <fieldset>
+                    <legend>
+                        <strong id="PersonalDetailsHeader">Personal Details</strong>
+                    </legend>
+                    
+                    <label for="userheight">Enter Your Height (in inches):</label> <input type="text" id="userheight"><br><br>
+
+                    <label for="userweight">Enter Your Weight (in lbs):</label>
+                    <input type="text" id="userweight"><br><br>
+
+                    <label>Experience Level: <select id="experienceLevel">
+                        <option value="Beginner">Beginner</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Advanced">Advanced</option>
+                    </select><br><br>
+
+                    <textarea id="userNotes" placeholder="Enter any personal notes here:" rows="5" cols="50"></textarea><br><br>
+                </fieldset>
+                
+                <hr>
+                <input id="SaveButton" type="button" value="Save Information">
+                <input type="reset" value="Clear Values">
+            </form>
+
+            <div class="bottom-container">
+                <a href="/Profile.html"><button type="button">Profile</button></a>
+                <a href="/SelectWorkout.html"><button type="button">Select Workout</button></a>
+                <a href="/Home.html"><button type="button">Home</button></a>
+                <a href="/Planner.html"><button type="button"> Planner</button></a>
+                <a href="/More.html"><button type="button">More</button></a>
+            </div>
+        </div>
+
+
+        <script src="ProfileViewSave.js"></script>
+</body>
+
+</html>

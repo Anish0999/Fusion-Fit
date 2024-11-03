@@ -12,9 +12,20 @@
         <div class="container">
             <h1>Fusion Fit</h1>
 
-            <button class="start_work">Start Workout</button>
-
-            <h3>Today's Progress</h3>
+            <h1>My Profile</h1>
+            <a href="/ProfileEdit.html"><button type="button">Edit Profile</button></a>
+            <fieldset>
+                <legend>
+                    <strong id="PersonalDetailsHeader">Personal Details</strong>
+                </legend>
+                
+                <p><strong>Height:</strong> <span id="userheightdisplay"></span> inches</p>
+                <p><strong>Weight:</strong> <span id="userweightdisplay"></span> lbs</p>
+                <p><strong>Experience Level:</strong> <span id="userexperienceleveldisplay"></span></p>
+                <p><strong>Notes:</strong> <span id="usernotesdisplay"></span></p>
+            </fieldset>
+            
+            <hr>
 
             <div class="bottom-container">
                 <a href="/Profile.html"><button type="button">Profile</button></a>
@@ -25,7 +36,8 @@
             </div>
         </div>
 
-        
+
+        <script src="ProfileViewSave.js"></script>
 </body>
 
 </html>
