@@ -82,3 +82,7 @@ h2 {
 .all-generators{
     /* border: 2px solid blue; */
 }
+
+.w-lookup {
+    all: revert; /* Resets properties to browser defaults */
+}
