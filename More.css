@@ -42,15 +42,23 @@ a button {
     /* Add padding for spacing within */
 }
 
-h2 {
-    position: absolute;
-    left: 50%;
-    margin-left: -75px;
-    margin-top: 150px;
+ul {
+    display: block;
+    width: 100%;
+    height: 90%;
+
 }
 
+li {
+    list-style-type: none;
+    background-color: aliceblue;
+    border: .5px solid black;
+    align-items: center;
+    margin-left: -3.7%;
+    padding: 3%;
+}
 
-.start_work {
-    width: 60%;
-    height: 30%;
+a {
+    text-decoration: none;
+    color: black;
 }
