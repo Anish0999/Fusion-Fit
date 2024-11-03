@@ -26,6 +26,14 @@ a button {
     color: white;
     padding: 0;
     border: none;
+    border-radius: 5px;
+    font-size: 12px;
+
+}
+
+a button:hover {
+    background-color: rgb(56, 55, 55);
+    cursor: pointer;
 }
 
 /* Adjusted .bottom-container with fixed height */

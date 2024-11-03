@@ -155,3 +155,17 @@ h2 {
 }
 
 .start-workout-item {}
+
+button {
+    height: 110%;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(56, 55, 55);
+    cursor: pointer;
+}

@@ -48,23 +48,15 @@ a button {
     margin-top: auto;
 }
 
-h2 {
-    position: absolute;
-    left: 50%;
-    margin-left: -75px;
-    margin-top: 150px;
-}
-
-
-.schedule{
+.schedule {
 
     margin: 0.5%;
     padding: 3%;
     display: flex;
     justify-content: space-around;
 
-     border: 2px solid red;
-    
+    border: 2px solid red;
+
 }
 
 .workout-lookup {
@@ -72,17 +64,32 @@ h2 {
     /* border: 2px solid red; */
 }
 
-.day{
+.day {
     display: flex;
     flex-direction: column;
     margin: 0 5px;
-    
+
 }
 
-.all-generators{
+.all-generators {
     /* border: 2px solid blue; */
 }
 
 .w-lookup {
-    all: revert; /* Resets properties to browser defaults */
+    all: revert;
+    /* Resets properties to browser defaults */
+}
+
+button {
+    height: 110%;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(56, 55, 55);
+    cursor: pointer;
 }
