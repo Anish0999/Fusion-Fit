@@ -76,7 +76,8 @@ h2 {
 
 .col {
     width: 100%;
-    border: black 1px solid;
+    border: black 2px solid;
+    border-radius: 15px;
 }
 
 .water-icon {
@@ -102,9 +103,9 @@ h2 {
     /* border: 2px solid red; */
 }
 
-.workout-tag{
+.workout-tag {
     font-size: 2.0rem;
-    
+
 }
 
 .workout-img {
@@ -136,22 +137,21 @@ h2 {
     color: orange;
 }
 
-.streak-area{
+.streak-area {
 
     margin: 1.5%;
     /* border: 2px solid red; */
 }
 
-.streak-b{
+.streak-b {
     padding: 6px;
     background-color: #007bff;
     color: white;
     font-size: 1em;
-    text-decoration: none; /* Remove underline */
+    text-decoration: none;
+    /* Remove underline */
     border-radius: 5px;
     cursor: pointer;
 }
 
-.start-workout-item{
-
-}
+.start-workout-item {}
