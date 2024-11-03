@@ -1,0 +1,56 @@
+.container {
+    background-color: white;
+    height: 100vh;
+    /* Ensure the height fills the viewport */
+    width: 35%;
+    margin: auto;
+    border-radius: 15px;
+    border: 8px solid black;
+    display: flex;
+    /* Use flex to align items within container */
+    flex-direction: column;
+    justify-content: space-between;
+    /* Space out elements vertically */
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* Only if content overflows container height */
+}
+
+a button {
+    height: 96px;
+    width: 96px;
+    background-color: black;
+    color: white;
+    padding: 0;
+    border: none;
+}
+
+/* Adjusted .bottom-container with fixed height */
+.bottom-container {
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    /* Fixed height to prevent extra spacing */
+    display: flex;
+    justify-content: space-around;
+    /* Space buttons evenly horizontally */
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px 0;
+    /* Add padding for spacing within */
+}
+
+h2 {
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: 150px;
+}
+
+
+.start_work {
+    width: 60%;
+    height: 30%;
+}
