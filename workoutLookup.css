@@ -58,24 +58,48 @@ h2 {
     height: 30%;
 }
 
-.first_line{
+.first_line {
     display: flex;
 }
 
-.select-type-div{
-    
+.select-type-div {
+
     /* border: 2px red solid; */
 }
 
-#results{
-    
+#results {
+
     width: 80%;
     margin: 5%;
     /* border: 2px red solid; */
 }
 
-.e-item {    
+.e-item {
     padding: 8%;
     margin: 10%;
     /* border: 1px solid green; */
+}
+
+button {
+    height: 110%;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(56, 55, 55);
+    cursor: pointer;
+}
+
+.nav_but {
+    height: 50px;
+    width: 50px;
+}
+
+.nav_but_more {
+    height: 25px;
+    width: 50px;
 }

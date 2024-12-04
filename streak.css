@@ -26,6 +26,14 @@ a button {
     color: white;
     padding: 0;
     border: none;
+    border-radius: 5px;
+    font-size: 12px;
+
+}
+
+a button:hover {
+    background-color: rgb(56, 55, 55);
+    cursor: pointer;
 }
 
 /* Adjusted .bottom-container with fixed height */
@@ -67,7 +75,7 @@ a button {
     font-size: 1em;
 }
 
-.popup-form{
+.popup-form {
 
     width: 70%;
     height: 70%;
@@ -85,7 +93,8 @@ a button {
 /* add more styling */
 
 .popup-form {
-    display: none; /* Hidden by default */
+    display: none;
+    /* Hidden by default */
     position: fixed;
     top: 50%;
     left: 50%;
@@ -145,4 +154,13 @@ a button {
 
 .close-button:hover {
     background-color: #c82333;
+}
+.nav_but {
+    height: 50px;
+    width: 50px;
+}
+
+.nav_but_more {
+    height: 25px;
+    width: 50px;
 }

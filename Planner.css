@@ -42,57 +42,61 @@ a button {
     /* Add padding for spacing within */
 }
 
-h2 {
-    position: absolute;
-    left: 50%;
-    margin-left: -75px;
-    margin-top: 150px;
-}
-
-
-.start_work {
-    width: 60%;
-    height: 30%;
-}
 
 ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     flex-wrap: wrap;
-    list-style: none;
     margin-right: 10%;
     margin-bottom: 10%;
 
     li {
         display: flex;
-        width: 57px;
-        height: 57px;
-        margin: 0.25rem;
+        margin: 3px;
         flex-flow: column;
         border-radius: 0.2rem;
         padding: 1rem;
-        font-weight: 300;
-        font-size: 0.8rem;
+        font-size: 12px;
         box-sizing: border-box;
-        background: rgba(255, 255, 255, 0.25);
         box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-        backdrop-filter: blur(4px);
-        -webkit-backdrop-filter: blur(4px);
         border-radius: 10px;
-        border: 1px solid rgba(255, 255, 255, 0.18);
-
-        time {
-            font-size: 10px;
-            margin: 0 0 .1rem 0;
-            font-weight: 500;
-        }
     }
+}
 
-    .today {
-        time {
-            font-weight: 800;
-        }
+#but {
+    height: 130%;
+    width: 120%;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
 
-        background: #ffffff70;
-    }
+#but:hover {
+    background-color: rgb(56, 55, 55);
+    cursor: pointer;
+}
+
+button {
+    height: 110%;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(56, 55, 55);
+    cursor: pointer;
+}
+.nav_but {
+    height: 50px;
+    width: 50px;
+}
+
+.nav_but_more {
+    height: 25px;
+    width: 50px;
 }

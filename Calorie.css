@@ -26,6 +26,14 @@ a button {
     color: white;
     padding: 0;
     border: none;
+    border-radius: 5px;
+    font-size: 12px;
+
+}
+
+a button:hover {
+    background-color: rgb(56, 55, 55);
+    cursor: pointer;
 }
 
 /* Adjusted .bottom-container with fixed height */
@@ -48,9 +56,61 @@ a button {
 
 .form_class {
     display: flex;
-    width: 100%;
+    justify-content: center;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .form {
-    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form p {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.text_form {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    background-color: #04a0d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.form button:hover {
+    background-color: #007187;
+}
+
+#calorieResult {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+.nav_but {
+    height: 50px;
+    width: 50px;
+}
+
+.nav_but_more {
+    height: 25px;
+    width: 50px;
 }

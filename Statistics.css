@@ -26,6 +26,14 @@ a button {
     color: white;
     padding: 0;
     border: none;
+    border-radius: 5px;
+    font-size: 12px;
+
+}
+
+a button:hover {
+    background-color: rgb(56, 55, 55);
+    cursor: pointer;
 }
 
 /* Adjusted .bottom-container with fixed height */
@@ -58,7 +66,7 @@ h2 {
     height: 30%;
 }
 
-.first_line{
+.first_line {
     display: flex;
 }
 
@@ -85,12 +93,13 @@ button {
 }
 
 #goals-list {
-    list-style-type: none; /* get rid of bullet points */
+    list-style-type: none;
+    /* get rid of bullet points */
     padding: 0;
 }
 
 .goal-item {
-    
+
     align-items: center;
     justify-content: space-between;
     margin: 10px 0;
@@ -113,4 +122,13 @@ button {
     border-radius: 50%;
     padding: 5px 8px;
     cursor: pointer;
+}
+.nav_but {
+    height: 50px;
+    width: 50px;
+}
+
+.nav_but_more {
+    height: 25px;
+    width: 50px;
 }

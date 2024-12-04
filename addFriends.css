@@ -27,6 +27,14 @@ a button {
     color: white;
     padding: 0;
     border: none;
+    border-radius: 5px;
+    font-size: 12px;
+
+}
+
+a button:hover {
+    background-color: rgb(56, 55, 55);
+    cursor: pointer;
 }
 
 /* Adjusted .bottom-container with fixed height */
@@ -49,7 +57,7 @@ a button {
     /* border: 10px solid orange */
 }
 
-.your-friends{
+.your-friends {
     width: 30vw;
     height: 35vw;
     /* border: 2px solid red; */
@@ -70,6 +78,7 @@ a button {
 button {
     padding: 8px;
     cursor: pointer;
+
 }
 
 /* more styling */
@@ -93,4 +102,14 @@ button {
     border-radius: 5px;
     padding: 5px 8px;
     cursor: pointer;
+}
+
+.nav_but {
+    height: 50px;
+    width: 50px;
+}
+
+.nav_but_more {
+    height: 25px;
+    width: 50px;
 }
