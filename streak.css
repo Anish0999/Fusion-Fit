@@ -155,3 +155,12 @@ a button:hover {
 .close-button:hover {
     background-color: #c82333;
 }
+.nav_but {
+    height: 50px;
+    width: 50px;
+}
+
+.nav_but_more {
+    height: 25px;
+    width: 50px;
+}

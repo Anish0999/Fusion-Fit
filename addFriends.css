@@ -103,3 +103,13 @@ button {
     padding: 5px 8px;
     cursor: pointer;
 }
+
+.nav_but {
+    height: 50px;
+    width: 50px;
+}
+
+.nav_but_more {
+    height: 25px;
+    width: 50px;
+}

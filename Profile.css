@@ -82,3 +82,12 @@ button:hover {
     background-color: rgb(56, 55, 55);
     cursor: pointer;
 }
+.nav_but {
+    height: 50px;
+    width: 50px;
+}
+
+.nav_but_more {
+    height: 25px;
+    width: 50px;
+}

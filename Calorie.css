@@ -105,3 +105,12 @@ a button:hover {
     color: #333;
     font-weight: bold;
 }
+.nav_but {
+    height: 50px;
+    width: 50px;
+}
+
+.nav_but_more {
+    height: 25px;
+    width: 50px;
+}
