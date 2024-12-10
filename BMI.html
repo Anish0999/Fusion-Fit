@@ -52,6 +52,7 @@
         weight_kilo = weight * 0.453592
         bmi = weight_kilo/(height_meters * height_meters)
         document.getElementById("bmiResult").innerText = `Your BMI is: ${bmi}`;
+        sessionStorage.setItem("bmiResult", bmi);
     }
 </script>
 

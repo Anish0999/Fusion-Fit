@@ -28,9 +28,11 @@ function displayInfo() {
     let usrexperienceLevel = sessionStorage.getItem("experienceLevel");
     let usrnotes = sessionStorage.getItem("userNotes");
 
+    let bmi = sessionStorage.getItem("bmiResult");
     document.getElementById("userheightdisplay").textContent = usrheight;
     document.getElementById("userweightdisplay").textContent = usrweight;
     document.getElementById("userexperienceleveldisplay").textContent = usrexperienceLevel;
     document.getElementById("usernotesdisplay").textContent = usrnotes;
     
+    document.getElementById("bmidisplay").textContent = bmi;
 }
