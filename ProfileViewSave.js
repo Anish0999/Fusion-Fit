@@ -28,8 +28,16 @@ function displayInfo() {
     let usrexperienceLevel = sessionStorage.getItem("experienceLevel");
     let usrnotes = sessionStorage.getItem("userNotes");
 
+    // let feet = Math.floor(usrheight / 12);
+    // let inches = usrheight % 12;
+    let feet = Number((usrheight / 12).toFixed(1));
+    let inches = Number((usrheight % 12).toFixed(1));
+
+
+    let displayFeetInches = feet + " feet " + inches + " inches";
+
     let bmi = sessionStorage.getItem("bmiResult");
-    document.getElementById("userheightdisplay").textContent = usrheight;
+    document.getElementById("userheightdisplay").textContent = displayFeetInches;
     document.getElementById("userweightdisplay").textContent = usrweight;
     document.getElementById("userexperienceleveldisplay").textContent = usrexperienceLevel;
     document.getElementById("usernotesdisplay").textContent = usrnotes;
