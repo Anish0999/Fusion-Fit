@@ -36,10 +36,10 @@ function handleAddFriend() {
 
 // Add Default Friends Here
 document.addEventListener("DOMContentLoaded", () => {
-    addFriend("Robert Downey Jr.");
-    addFriend("Scarlett Johansson");
-    addFriend("Chris Hemsworth");
-    addFriend("Emma Stone");
-    addFriend("Dwayne Johnson");
-    addFriend("Jennifer Lawrence");
+    // addFriend("Robert Downey Jr.");
+    // addFriend("Scarlett Johansson");
+    // addFriend("Chris Hemsworth");
+    // addFriend("Emma Stone");
+    // addFriend("Dwayne Johnson");
+    // addFriend("Jennifer Lawrence");
 });

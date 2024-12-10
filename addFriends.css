@@ -113,3 +113,92 @@ button {
     height: 25px;
     width: 50px;
 }
+
+/* Adding More Here  */
+
+.names{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    width: 22.9rem;
+    height: 3rem;
+
+    /* border: 2px solid rgb(128, 255, 0); */
+
+    
+}
+
+.cross-out{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #d7cfcf;
+    border-radius: 30px;
+    
+
+    width: 1.3rem;
+    height: 1.5rem;
+    /* border: 2px solid blue; */
+}
+
+.username{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+
+
+    width: 5rem;
+    height: 1.5rem;
+    /* border: 2px solid rgb(0, 255, 21); */
+
+    border-radius: 1.5rem;
+}
+
+.profile{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    background-color: #d7cfcf;
+
+    width: 5rem;
+    height: 1.5rem;
+    /* border: 2px solid rgb(248, 23, 98); */
+
+    border-radius: 1.5rem;
+}
+
+.send-message{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    background-color: #d7cfcf;
+
+    width: 7rem;
+    height: 1.5rem;
+
+    /* border: 2px solid rgb(200, 255, 0); */
+
+    border-radius: 1.5rem;
+}
+
+.friends{
+
+    width: 22.9rem;
+    height: 25rem;
+    
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+
+    /* border: 2px solid red; */
+}
+
+
