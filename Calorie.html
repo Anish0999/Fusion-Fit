@@ -23,7 +23,7 @@
                         <input type="radio" id="male" name="gender" value="female">
                         <label for="male">Female</label>
                     </div>
-                    <p>Height:</p>
+                    <p>Height (in inches):</p>
                     <input type="text" id="height">
                     <p>Weight:</p>
                     <input type="text" id="weight"><br><br>
@@ -83,7 +83,8 @@
             TDEE = BMR * 1.9
         }
 
-        document.getElementById("calorieResult").innerText = `Your Calories needed is: ${TDEE}`
+
+        document.getElementById("calorieResult").innerText = `Your Daily Calorie Need: ${TDEE.toFixed(0)}`
 
     }
 </script>

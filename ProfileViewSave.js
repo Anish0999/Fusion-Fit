@@ -30,7 +30,7 @@ function displayInfo() {
 
     // let feet = Math.floor(usrheight / 12);
     // let inches = usrheight % 12;
-    let feet = Number((usrheight / 12).toFixed(1));
+    let feet = Number((Math.floor(usrheight / 12)).toFixed(1));
     let inches = Number((usrheight % 12).toFixed(1));
 
 
