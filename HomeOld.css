@@ -1,0 +1,181 @@
+.container {
+    background-color: white;
+    height: 100vh;
+    /* Ensure the height fills the viewport */
+    width: 35%;
+    margin: auto;
+    border-radius: 15px;
+    border: 8px solid black;
+    display: flex;
+    /* Use flex to align items within container */
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* Space out elements vertically */
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* Only if content overflows container height */
+
+    /* border: 2px solid black; */
+}
+
+a button {
+    height: 96px;
+    width: 96px;
+    background-color: black;
+    color: white;
+    padding: 0;
+    border: none;
+}
+
+/* Adjusted .bottom-container with fixed height */
+.bottom-container {
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    /* Fixed height to prevent extra spacing */
+
+    display: flex;
+    justify-content: space-around;
+
+    /* Space buttons evenly horizontally */
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px 0;
+    /* Add padding for spacing within */
+
+    margin-top: auto;
+}
+
+h2 {
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: 150px;
+    align-items: center;
+}
+
+
+.start_work {
+    border: 2px solid black;
+    width: 90%;
+    height: 20%;
+    margin: 5%;
+    border-radius: 15px;
+    display: flex;
+}
+
+.row {
+    width: 98%;
+    display: flex;
+    gap: 5%;
+    height: 30%;
+    margin: 1%;
+}
+
+.col {
+    width: 100%;
+    border: black 2px solid;
+    border-radius: 15px;
+}
+
+.water-icon {
+    width: 10%;
+    height: 10%;
+}
+
+.progress-item {
+    margin: 5%;
+}
+
+.week-item {
+    margin: 5%;
+}
+
+.start-workout-item {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 8%;
+    /* border: 2px solid red; */
+}
+
+.workout-tag {
+    font-size: 2.0rem;
+
+}
+
+.workout-img {
+    width: 55%;
+    height: 55%;
+}
+
+.title-area {
+    display: flex;
+    width: 100%;
+
+}
+
+.title-area img {
+    justify-content: left;
+    align-items: end;
+    height: 50px;
+    width: 50px;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.title {
+    margin-left: 15%;
+}
+
+.num {
+    margin-top: 7%;
+    color: orange;
+}
+
+.streak-area {
+
+    margin: 1.5%;
+    /* border: 2px solid red; */
+}
+
+.streak-b {
+    padding: 6px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    /* Remove underline */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-workout-item {}
+
+button {
+    height: 110%;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(56, 55, 55);
+    cursor: pointer;
+}
+
+.nav_but {
+    height: 50px;
+    width: 50px;
+}
+
+.nav_but_more {
+    height: 25px;
+    width: 50px;
+}

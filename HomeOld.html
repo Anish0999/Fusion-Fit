@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Home.css">
+    <style>
+        .progress-item {
+            margin-bottom: 20px; /* Adds spacing between progress items */
+        }
+        .progress-info {
+            font-size: 0.9em;
+            margin-top: 5px; /* Adds space between the progress bar and the info */
+            display: block; /* Forces text onto the next line */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title-area">
+            <div class="streak-area">
+                <h1 class="num" onclick="toStreak()">🔥 19</h1>
+                <a href="/streak.html" class="streak-b">View Streak</a>
+            </div>      
+            <h1 class="title">Fusion Fit ⚡</h1>
+        </div>
+
+        <div class="start_work">
+            <div class="start-workout-item">
+                <h3 class="workout-tag">Start Workout 🏋️‍♂️</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h3 class="progress-item">Today's Progress 🎯</h3>
+                <div class="progress-item">
+                    <label for="calories">Calorie Intake:</label>
+                    <progress id="calories" value="48" max="100"></progress>
+                    <span class="progress-info"></span>
+                </div>
+
+                <div class="progress-item">
+                    <label>Water Intake (2 cups left!):</label>
+                    <br>
+                    <img src="./images/glass-of-water.png" alt="Water Icon" class="water-icon">
+                    <img src="./images/glass-of-water.png" alt="Water Icon" class="water-icon">                  
+                </div>
+
+                <div class="progress-item">
+                    <label>Legs:</label>
+                    <div class="check-icon">
+                        <input type="checkbox" id="legs-checkbox" class="checkbox">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <h3 class="week-item">This Week's Goals 📅</h3>
+                <div class="week-item">
+                    <label for="workouts">Workouts:</label>
+                    <progress id="workouts" value="2" max="5"></progress>
+                    <span class="progress-info"></span>
+                </div>
+
+                <div class="week-item">
+                    <label for="steps">Steps:</label>
+                    <progress id="steps" value="1500" max="10000"></progress>
+                    <span class="progress-info"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-container">
+            <a href="./Profile.html"><button type="button"><img class="nav_but" src="/Images/icon-black.png" alt=""></button></a>
+            <a href="./SelectWorkout.html"><button type="button"><img class="nav_but" src="/Images/buff-arm-icon.png" alt=""></button></a>
+            <a href="./Home.html"><button type="button"><img class="nav_but" src="/Images/homeButton.png" alt=""></button></a>
+            <a href="./Planner.html"><button type="button"> <img class="nav_but" src="/Images/calendar-icon-white.png" alt=""></button></button></a>
+            <a href="./More.html"><button type="button"><img class="nav_but_more" src="/Images/more-icon.png" alt=""></button></a>
+        </div>
+    </div>
+
+<script>
+    function updateProgressBars() {
+        const progressBars = document.querySelectorAll('progress');
+        progressBars.forEach(progress => {
+            const value = progress.value;
+            const max = progress.max;
+            const percentage = ((value / max) * 100).toFixed(1);
+            const infoSpan = progress.nextElementSibling;
+            infoSpan.textContent = `${value} / ${max} (${percentage}%)`;
+        });
+    }
+
+    updateProgressBars();
+
+    document.querySelectorAll('progress').forEach(progress => {
+        progress.addEventListener('change', updateProgressBars);
+    });
+
+    function toStreak() {
+        window.location.href = "streak.html";
+    }
+</script>
+</body>
+</html>
